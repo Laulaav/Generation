@@ -27,7 +27,7 @@ Adultos = Maiores de 18 anos*/
 		senao se(idade>=14 e idade<=17){
 			escreva("\nSua categoria é a juvenil B")
 		}
-		senao(idade>=18){
+		senao{
 			escreva("\nSua categoria é dos Adultos")
 		}
 	}
