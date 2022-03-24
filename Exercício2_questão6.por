@@ -1,6 +1,7 @@
 programa
 {
-	/*6) Elabore um sistema que dada a idade de um nadador classifique-o em uma das seguintes categorias:
+	
+/*6) Elabore um sistema que dada a idade de um nadador classifique-o em uma das seguintes categorias:
 Infantil A = 5 a 7 anos
 Infantil B = 8 a 11 anos
 Juvenil A = 12 a 13 anos
@@ -26,7 +27,7 @@ Adultos = Maiores de 18 anos*/
 		senao se(idade>=14 e idade<=17){
 			escreva("\nSua categoria é a juvenil B")
 		}
-		senao se(idade>=18){
+		senao(idade>=18){
 			escreva("\nSua categoria é dos Adultos")
 		}
 	}
