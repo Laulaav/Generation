@@ -5,7 +5,7 @@ programa
 	{
 	    inteiro numero
 
-	    escreva("\nInsira desejado número:")
+	    escreva("\nInsira número desejado:")
 	    leia(numero)
 
 	    se(numero % 2 == 0){
