@@ -27,9 +27,13 @@ Adultos = Maiores de 18 anos*/
 		senao se(idade>=14 e idade<=17){
 			escreva("\nSua categoria é a juvenil B")
 		}
-		senao{
+		senao se(idade>=18){
 			escreva("\nSua categoria é dos Adultos")
 		}
+		senao{
+		        escreva("nVocê não se encaixa em nunhuma categoria")
+		}
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
